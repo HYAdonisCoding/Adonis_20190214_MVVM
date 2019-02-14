@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575B203E3702F9FFB9E68515 /* libPods-Adonis_20190214_MVVMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C27C5073151F755D1516609 /* libPods-Adonis_20190214_MVVMUITests.a */; };
+		6A5154FEDC56ADC71AF749CB /* libPods-Adonis_20190214_MVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D78A50D2263236F077911 /* libPods-Adonis_20190214_MVVM.a */; };
 		7A566F5B2215595600E3C408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F5A2215595600E3C408 /* AppDelegate.m */; };
 		7A566F5E2215595600E3C408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F5D2215595600E3C408 /* ViewController.m */; };
 		7A566F612215595600E3C408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A566F5F2215595600E3C408 /* Main.storyboard */; };
@@ -16,6 +18,27 @@
 		7A566F6C2215595700E3C408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F6B2215595700E3C408 /* main.m */; };
 		7A566F762215595700E3C408 /* Adonis_20190214_MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F752215595700E3C408 /* Adonis_20190214_MVVMTests.m */; };
 		7A566F812215595700E3C408 /* Adonis_20190214_MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F802215595700E3C408 /* Adonis_20190214_MVVMUITests.m */; };
+		7A566FB722155D5200E3C408 /* SM4EncodeAndDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9022155D4300E3C408 /* SM4EncodeAndDecode.m */; };
+		7A566FB822155D5200E3C408 /* sm4test.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9122155D4300E3C408 /* sm4test.c */; };
+		7A566FB922155D5200E3C408 /* sm4.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9222155D4300E3C408 /* sm4.c */; };
+		7A566FBA22155D5200E3C408 /* HYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9722155D5100E3C408 /* HYBaseView.m */; };
+		7A566FBB22155D5200E3C408 /* HYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9922155D5100E3C408 /* HYBaseViewController.m */; };
+		7A566FBC22155D5200E3C408 /* HYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9B22155D5100E3C408 /* HYBaseModel.m */; };
+		7A566FBD22155D5200E3C408 /* HYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566F9D22155D5100E3C408 /* HYBaseNavigationController.m */; };
+		7A566FBF22155D5300E3C408 /* UIColor+HYSetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FA322155D5200E3C408 /* UIColor+HYSetColor.m */; };
+		7A566FC022155D5300E3C408 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FA722155D5200E3C408 /* UIView+HUD.m */; };
+		7A566FC122155D5300E3C408 /* UITableView+HYRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FA822155D5200E3C408 /* UITableView+HYRegister.m */; };
+		7A566FC322155D5300E3C408 /* HYFoundationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FAD22155D5200E3C408 /* HYFoundationTool.m */; };
+		7A566FC422155D5300E3C408 /* HYDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FB122155D5200E3C408 /* HYDataSource.m */; };
+		7A566FC522155D5300E3C408 /* HYEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FB222155D5200E3C408 /* HYEncryptTool.m */; };
+		7A566FC622155D5300E3C408 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A566FB622155D5200E3C408 /* Data.json */; };
+		7A566FCD221561B000E3C408 /* HYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FCC221561B000E3C408 /* HYHomeViewController.m */; };
+		7A566FD0221561D200E3C408 /* HYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FCF221561D200E3C408 /* HYHomeCell.m */; };
+		7A566FD3221561E100E3C408 /* HYHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FD2221561E100E3C408 /* HYHomeModel.m */; };
+		7A566FD62215625600E3C408 /* HYBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FD52215625600E3C408 /* HYBaseViewModel.m */; };
+		7A566FD92215627A00E3C408 /* HYHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FD82215627A00E3C408 /* HYHomeViewModel.m */; };
+		7A566FDC2215645000E3C408 /* HYHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */; };
+		E4DA1E1E287AAF250CF8A0E8 /* libPods-Adonis_20190214_MVVMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFE8307EB418621303C2D16 /* libPods-Adonis_20190214_MVVMTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F779572CB018AC2546275A /* Pods-Adonis_20190214_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVM/Pods-Adonis_20190214_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		123D78A50D2263236F077911 /* libPods-Adonis_20190214_MVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190214_MVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C27C5073151F755D1516609 /* libPods-Adonis_20190214_MVVMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190214_MVVMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629DFE96A75095993018C65B /* Pods-Adonis_20190214_MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMUITests/Pods-Adonis_20190214_MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68EA7B6C4C3CD941161376B4 /* Pods-Adonis_20190214_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVM/Pods-Adonis_20190214_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		7A566F562215595600E3C408 /* Adonis_20190214_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adonis_20190214_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A566F592215595600E3C408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A566F5A2215595600E3C408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +81,51 @@
 		7A566F7C2215595700E3C408 /* Adonis_20190214_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adonis_20190214_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A566F802215595700E3C408 /* Adonis_20190214_MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adonis_20190214_MVVMUITests.m; sourceTree = "<group>"; };
 		7A566F822215595700E3C408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A566F9022155D4300E3C408 /* SM4EncodeAndDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SM4EncodeAndDecode.m; sourceTree = "<group>"; };
+		7A566F9122155D4300E3C408 /* sm4test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4test.c; sourceTree = "<group>"; };
+		7A566F9222155D4300E3C408 /* sm4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4.c; sourceTree = "<group>"; };
+		7A566F9322155D4300E3C408 /* sm4test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4test.h; sourceTree = "<group>"; };
+		7A566F9422155D4300E3C408 /* SM4EncodeAndDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SM4EncodeAndDecode.h; sourceTree = "<group>"; };
+		7A566F9522155D4300E3C408 /* sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4.h; sourceTree = "<group>"; };
+		7A566F9722155D5100E3C408 /* HYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseView.m; sourceTree = "<group>"; };
+		7A566F9822155D5100E3C408 /* HYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseNavigationController.h; sourceTree = "<group>"; };
+		7A566F9922155D5100E3C408 /* HYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseViewController.m; sourceTree = "<group>"; };
+		7A566F9A22155D5100E3C408 /* HYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseModel.h; sourceTree = "<group>"; };
+		7A566F9B22155D5100E3C408 /* HYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseModel.m; sourceTree = "<group>"; };
+		7A566F9C22155D5100E3C408 /* HYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseViewController.h; sourceTree = "<group>"; };
+		7A566F9D22155D5100E3C408 /* HYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBaseNavigationController.m; sourceTree = "<group>"; };
+		7A566F9E22155D5100E3C408 /* HYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBaseView.h; sourceTree = "<group>"; };
+		7A566FA322155D5200E3C408 /* UIColor+HYSetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYSetColor.m"; sourceTree = "<group>"; };
+		7A566FA422155D5200E3C408 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		7A566FA522155D5200E3C408 /* UITableView+HYRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYRegister.h"; sourceTree = "<group>"; };
+		7A566FA622155D5200E3C408 /* UIColor+HYSetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYSetColor.h"; sourceTree = "<group>"; };
+		7A566FA722155D5200E3C408 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		7A566FA822155D5200E3C408 /* UITableView+HYRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYRegister.m"; sourceTree = "<group>"; };
+		7A566FAD22155D5200E3C408 /* HYFoundationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFoundationTool.m; sourceTree = "<group>"; };
+		7A566FAE22155D5200E3C408 /* HYDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDataSource.h; sourceTree = "<group>"; };
+		7A566FAF22155D5200E3C408 /* HYEncryptTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYEncryptTool.h; sourceTree = "<group>"; };
+		7A566FB022155D5200E3C408 /* HYFoundationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFoundationTool.h; sourceTree = "<group>"; };
+		7A566FB122155D5200E3C408 /* HYDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDataSource.m; sourceTree = "<group>"; };
+		7A566FB222155D5200E3C408 /* HYEncryptTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYEncryptTool.m; sourceTree = "<group>"; };
+		7A566FB422155D5200E3C408 /* HYBlockHeadder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBlockHeadder.h; sourceTree = "<group>"; };
+		7A566FB622155D5200E3C408 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		7A566FC722155D9800E3C408 /* HYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPrefixHeader.pch; sourceTree = "<group>"; };
+		7A566FCB221561B000E3C408 /* HYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeViewController.h; sourceTree = "<group>"; };
+		7A566FCC221561B000E3C408 /* HYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeViewController.m; sourceTree = "<group>"; };
+		7A566FCE221561D200E3C408 /* HYHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeCell.h; sourceTree = "<group>"; };
+		7A566FCF221561D200E3C408 /* HYHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeCell.m; sourceTree = "<group>"; };
+		7A566FD1221561E100E3C408 /* HYHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeModel.h; sourceTree = "<group>"; };
+		7A566FD2221561E100E3C408 /* HYHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeModel.m; sourceTree = "<group>"; };
+		7A566FD42215625600E3C408 /* HYBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseViewModel.h; sourceTree = "<group>"; };
+		7A566FD52215625600E3C408 /* HYBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseViewModel.m; sourceTree = "<group>"; };
+		7A566FD72215627A00E3C408 /* HYHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeViewModel.h; sourceTree = "<group>"; };
+		7A566FD82215627A00E3C408 /* HYHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeViewModel.m; sourceTree = "<group>"; };
+		7A566FDA2215645000E3C408 /* HYHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeHeaderView.h; sourceTree = "<group>"; };
+		7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeHeaderView.m; sourceTree = "<group>"; };
+		7D5E8234734C1D01626F18C0 /* Pods-Adonis_20190214_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMUITests/Pods-Adonis_20190214_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89EFBF6AB16CF510D72B655B /* Pods-Adonis_20190214_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMTests/Pods-Adonis_20190214_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B063E6A621A55F0BC345B2D /* Pods-Adonis_20190214_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMTests/Pods-Adonis_20190214_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEFE8307EB418621303C2D16 /* libPods-Adonis_20190214_MVVMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Adonis_20190214_MVVMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A5154FEDC56ADC71AF749CB /* libPods-Adonis_20190214_MVVM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DA1E1E287AAF250CF8A0E8 /* libPods-Adonis_20190214_MVVMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575B203E3702F9FFB9E68515 /* libPods-Adonis_20190214_MVVMUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +163,8 @@
 				7A566F742215595700E3C408 /* Adonis_20190214_MVVMTests */,
 				7A566F7F2215595700E3C408 /* Adonis_20190214_MVVMUITests */,
 				7A566F572215595600E3C408 /* Products */,
+				8F488EC18A21CC66E8E56811 /* Pods */,
+				7D97ED22DED329F8AFBF9EEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +181,12 @@
 		7A566F582215595600E3C408 /* Adonis_20190214_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7A566FC82215616500E3C408 /* Home */,
+				7A566F9622155D5100E3C408 /* BaseClass */,
+				7A566FA222155D5200E3C408 /* Category */,
+				7A566FB322155D5200E3C408 /* Resources */,
+				7A566F8E22155D4300E3C408 /* ThirdClass */,
+				7A566FAC22155D5200E3C408 /* Untils */,
 				7A566F592215595600E3C408 /* AppDelegate.h */,
 				7A566F5A2215595600E3C408 /* AppDelegate.m */,
 				7A566F5C2215595600E3C408 /* ViewController.h */,
@@ -135,6 +219,152 @@
 			path = Adonis_20190214_MVVMUITests;
 			sourceTree = "<group>";
 		};
+		7A566F8E22155D4300E3C408 /* ThirdClass */ = {
+			isa = PBXGroup;
+			children = (
+				7A566F8F22155D4300E3C408 /* sm4 */,
+			);
+			path = ThirdClass;
+			sourceTree = "<group>";
+		};
+		7A566F8F22155D4300E3C408 /* sm4 */ = {
+			isa = PBXGroup;
+			children = (
+				7A566F9022155D4300E3C408 /* SM4EncodeAndDecode.m */,
+				7A566F9122155D4300E3C408 /* sm4test.c */,
+				7A566F9222155D4300E3C408 /* sm4.c */,
+				7A566F9322155D4300E3C408 /* sm4test.h */,
+				7A566F9422155D4300E3C408 /* SM4EncodeAndDecode.h */,
+				7A566F9522155D4300E3C408 /* sm4.h */,
+			);
+			path = sm4;
+			sourceTree = "<group>";
+		};
+		7A566F9622155D5100E3C408 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7A566F9A22155D5100E3C408 /* HYBaseModel.h */,
+				7A566F9B22155D5100E3C408 /* HYBaseModel.m */,
+				7A566F9822155D5100E3C408 /* HYBaseNavigationController.h */,
+				7A566F9D22155D5100E3C408 /* HYBaseNavigationController.m */,
+				7A566F9E22155D5100E3C408 /* HYBaseView.h */,
+				7A566F9722155D5100E3C408 /* HYBaseView.m */,
+				7A566F9C22155D5100E3C408 /* HYBaseViewController.h */,
+				7A566F9922155D5100E3C408 /* HYBaseViewController.m */,
+				7A566FD42215625600E3C408 /* HYBaseViewModel.h */,
+				7A566FD52215625600E3C408 /* HYBaseViewModel.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7A566F9F22155D5100E3C408 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FCE221561D200E3C408 /* HYHomeCell.h */,
+				7A566FCF221561D200E3C408 /* HYHomeCell.m */,
+				7A566FDA2215645000E3C408 /* HYHomeHeaderView.h */,
+				7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A566FA222155D5200E3C408 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FA622155D5200E3C408 /* UIColor+HYSetColor.h */,
+				7A566FA322155D5200E3C408 /* UIColor+HYSetColor.m */,
+				7A566FA522155D5200E3C408 /* UITableView+HYRegister.h */,
+				7A566FA822155D5200E3C408 /* UITableView+HYRegister.m */,
+				7A566FA422155D5200E3C408 /* UIView+HUD.h */,
+				7A566FA722155D5200E3C408 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7A566FA922155D5200E3C408 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FD1221561E100E3C408 /* HYHomeModel.h */,
+				7A566FD2221561E100E3C408 /* HYHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A566FAC22155D5200E3C408 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FAE22155D5200E3C408 /* HYDataSource.h */,
+				7A566FB122155D5200E3C408 /* HYDataSource.m */,
+				7A566FAF22155D5200E3C408 /* HYEncryptTool.h */,
+				7A566FB222155D5200E3C408 /* HYEncryptTool.m */,
+				7A566FB022155D5200E3C408 /* HYFoundationTool.h */,
+				7A566FAD22155D5200E3C408 /* HYFoundationTool.m */,
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		7A566FB322155D5200E3C408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FB422155D5200E3C408 /* HYBlockHeadder.h */,
+				7A566FC722155D9800E3C408 /* HYPrefixHeader.pch */,
+				7A566FB622155D5200E3C408 /* Data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A566FC82215616500E3C408 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FCA2215618300E3C408 /* ViewModel */,
+				7A566FC92215617900E3C408 /* Controller */,
+				7A566F9F22155D5100E3C408 /* View */,
+				7A566FA922155D5200E3C408 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A566FC92215617900E3C408 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FCB221561B000E3C408 /* HYHomeViewController.h */,
+				7A566FCC221561B000E3C408 /* HYHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A566FCA2215618300E3C408 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A566FD72215627A00E3C408 /* HYHomeViewModel.h */,
+				7A566FD82215627A00E3C408 /* HYHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7D97ED22DED329F8AFBF9EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123D78A50D2263236F077911 /* libPods-Adonis_20190214_MVVM.a */,
+				AEFE8307EB418621303C2D16 /* libPods-Adonis_20190214_MVVMTests.a */,
+				1C27C5073151F755D1516609 /* libPods-Adonis_20190214_MVVMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F488EC18A21CC66E8E56811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68EA7B6C4C3CD941161376B4 /* Pods-Adonis_20190214_MVVM.debug.xcconfig */,
+				07F779572CB018AC2546275A /* Pods-Adonis_20190214_MVVM.release.xcconfig */,
+				89EFBF6AB16CF510D72B655B /* Pods-Adonis_20190214_MVVMTests.debug.xcconfig */,
+				8B063E6A621A55F0BC345B2D /* Pods-Adonis_20190214_MVVMTests.release.xcconfig */,
+				629DFE96A75095993018C65B /* Pods-Adonis_20190214_MVVMUITests.debug.xcconfig */,
+				7D5E8234734C1D01626F18C0 /* Pods-Adonis_20190214_MVVMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A566F852215595700E3C408 /* Build configuration list for PBXNativeTarget "Adonis_20190214_MVVM" */;
 			buildPhases = (
+				75D9450DBA39205BB293E089 /* [CP] Check Pods Manifest.lock */,
 				7A566F522215595600E3C408 /* Sources */,
 				7A566F532215595600E3C408 /* Frameworks */,
 				7A566F542215595600E3C408 /* Resources */,
+				1E15F963A9BE027D0FAD070D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +391,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A566F882215595700E3C408 /* Build configuration list for PBXNativeTarget "Adonis_20190214_MVVMTests" */;
 			buildPhases = (
+				1521561E7C864302472CE7B0 /* [CP] Check Pods Manifest.lock */,
 				7A566F6D2215595700E3C408 /* Sources */,
 				7A566F6E2215595700E3C408 /* Frameworks */,
 				7A566F6F2215595700E3C408 /* Resources */,
@@ -177,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A566F8B2215595700E3C408 /* Build configuration list for PBXNativeTarget "Adonis_20190214_MVVMUITests" */;
 			buildPhases = (
+				0CEDFFEEC0F9AE1C2E638D24 /* [CP] Check Pods Manifest.lock */,
 				7A566F782215595700E3C408 /* Sources */,
 				7A566F792215595700E3C408 /* Frameworks */,
 				7A566F7A2215595700E3C408 /* Resources */,
@@ -197,6 +431,7 @@
 		7A566F4E2215595600E3C408 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HY;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Nikoyo (China）Electronics Systems Co., Ltd.";
 				TargetAttributes = {
@@ -241,6 +476,7 @@
 				7A566F692215595700E3C408 /* LaunchScreen.storyboard in Resources */,
 				7A566F662215595700E3C408 /* Assets.xcassets in Resources */,
 				7A566F612215595600E3C408 /* Main.storyboard in Resources */,
+				7A566FC622155D5300E3C408 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +496,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CEDFFEEC0F9AE1C2E638D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190214_MVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1521561E7C864302472CE7B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190214_MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E15F963A9BE027D0FAD070D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Adonis_20190214_MVVM/Pods-Adonis_20190214_MVVM-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adonis_20190214_MVVM/Pods-Adonis_20190214_MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D9450DBA39205BB293E089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adonis_20190214_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A566F522215595600E3C408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A566FC022155D5300E3C408 /* UIView+HUD.m in Sources */,
+				7A566FC322155D5300E3C408 /* HYFoundationTool.m in Sources */,
+				7A566FBD22155D5200E3C408 /* HYBaseNavigationController.m in Sources */,
 				7A566F5E2215595600E3C408 /* ViewController.m in Sources */,
+				7A566FD92215627A00E3C408 /* HYHomeViewModel.m in Sources */,
+				7A566FCD221561B000E3C408 /* HYHomeViewController.m in Sources */,
 				7A566F5B2215595600E3C408 /* AppDelegate.m in Sources */,
+				7A566FDC2215645000E3C408 /* HYHomeHeaderView.m in Sources */,
+				7A566FC122155D5300E3C408 /* UITableView+HYRegister.m in Sources */,
+				7A566FD62215625600E3C408 /* HYBaseViewModel.m in Sources */,
+				7A566FB922155D5200E3C408 /* sm4.c in Sources */,
+				7A566FBC22155D5200E3C408 /* HYBaseModel.m in Sources */,
 				7A566F6C2215595700E3C408 /* main.m in Sources */,
 				7A566F642215595600E3C408 /* Adonis_20190214_MVVM.xcdatamodeld in Sources */,
+				7A566FD3221561E100E3C408 /* HYHomeModel.m in Sources */,
+				7A566FB822155D5200E3C408 /* sm4test.c in Sources */,
+				7A566FBB22155D5200E3C408 /* HYBaseViewController.m in Sources */,
+				7A566FC422155D5300E3C408 /* HYDataSource.m in Sources */,
+				7A566FC522155D5300E3C408 /* HYEncryptTool.m in Sources */,
+				7A566FBF22155D5300E3C408 /* UIColor+HYSetColor.m in Sources */,
+				7A566FD0221561D200E3C408 /* HYHomeCell.m in Sources */,
+				7A566FBA22155D5200E3C408 /* HYBaseView.m in Sources */,
+				7A566FB722155D5200E3C408 /* SM4EncodeAndDecode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +785,12 @@
 		};
 		7A566F862215595700E3C408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EA7B6C4C3CD941161376B4 /* Pods-Adonis_20190214_MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adonis_20190214_MVVM/Resources/HYPrefixHeader.pch";
 				INFOPLIST_FILE = Adonis_20190214_MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,15 +799,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20190214-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Debug;
 		};
 		7A566F872215595700E3C408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F779572CB018AC2546275A /* Pods-Adonis_20190214_MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adonis_20190214_MVVM/Resources/HYPrefixHeader.pch";
 				INFOPLIST_FILE = Adonis_20190214_MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,11 +819,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.nikoyo.www.Adonis-20190214-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Release;
 		};
 		7A566F892215595700E3C408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EFBF6AB16CF510D72B655B /* Pods-Adonis_20190214_MVVMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +845,7 @@
 		};
 		7A566F8A2215595700E3C408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B063E6A621A55F0BC345B2D /* Pods-Adonis_20190214_MVVMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +865,7 @@
 		};
 		7A566F8C2215595700E3C408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629DFE96A75095993018C65B /* Pods-Adonis_20190214_MVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
@@ -527,6 +884,7 @@
 		};
 		7A566F8D2215595700E3C408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5E8234734C1D01626F18C0 /* Pods-Adonis_20190214_MVVMUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
