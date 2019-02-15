@@ -11,6 +11,7 @@
 * 控制器加载数据
 
 ```
+
 [self.viewModel initWithSuccess:^(id data) {
         SG(strongSelf);
         NSArray *array = data;
@@ -29,6 +30,7 @@
 * VM层加载数据的方法
 
 ```
+
 - (void)loadData {
     NSArray *array = @[@"转账", @"信用卡", @"充值中心", @"蚂蚁借呗", @"电影票", @"滴滴出行", @"城市服务", @"蚂蚁森林"];
     
@@ -42,20 +44,24 @@
         });
     });
 }
+
 ```
 
 * 控制器传值给VM层
 
 ```
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     self.viewModel.contentKey = self.dataArray[indexPath.row];
 }
+
 ```
 * RAC观察属性 并回传给控制器
 
 ```
+
 - (instancetype)init {
     self = [super init];
     if (self) {
