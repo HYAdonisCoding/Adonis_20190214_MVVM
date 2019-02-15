@@ -7,9 +7,10 @@
 //
 
 #import "HYHomeViewModel.h"
-#import <ReactiveObjC.h>
 
 @implementation HYHomeViewModel
+
+@dynamic successBlock;
 
 - (instancetype)init {
     self = [super init];
