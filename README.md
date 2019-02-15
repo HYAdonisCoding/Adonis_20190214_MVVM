@@ -1,6 +1,5 @@
 # Adonis_20190214_MVVM
 
--------
 
 我MVVM架构模式。
 
@@ -83,3 +82,11 @@
 }
 
 ```
+
+#Author
+
+>[HYAdonisCoding]
+
+#Licenses
+
+>All source code is licensed under the [MIT License].
