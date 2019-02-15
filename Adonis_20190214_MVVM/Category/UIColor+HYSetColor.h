@@ -19,6 +19,15 @@ NS_ASSUME_NONNULL_BEGIN
  @return 颜色
  */
 + (UIColor *)getColorFrom:(NSString *)hexColor;
+
+
+/**
+ 随机颜色
+
+ @return 颜色值
+ */
++ (UIColor*)randomColor;
+
 @end
 
 NS_ASSUME_NONNULL_END

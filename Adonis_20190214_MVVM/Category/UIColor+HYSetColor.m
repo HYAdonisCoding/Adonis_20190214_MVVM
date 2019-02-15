@@ -27,4 +27,14 @@
     
     return [UIColor colorWithRed:(float)(red/255.0f) green:(float)(green/255.0f) blue:(float)(blue/255.0f) alpha:1.0f];
 }
+
++ (UIColor*)randomColor {
+    CGFloat hue = (arc4random() %256/256.0);
+    CGFloat saturation = (arc4random() %128/256.0) +0.5;
+    CGFloat brightness = (arc4random() %128/256.0) +0.5;
+    UIColor *color = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+    return color;
+    
+}
+
 @end

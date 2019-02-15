@@ -29,6 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"主页";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(didClickedReloadData:)];
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -71,6 +72,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    self.viewModel.contentKey = self.dataArray[indexPath.row];
+}
+
+- (void)didClickedReloadData:(id)sender {
+    NSLog(@"%s--%@", __func__, @"刷新");
+    [self.viewModel loadData];
 }
 #pragma mark -- Lazy Load
 - (UITableView *)tableView {

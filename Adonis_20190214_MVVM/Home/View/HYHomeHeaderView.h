@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HYHomeHeaderView : HYBaseView
 
+/** 返回数据 */
+@property (nonatomic, copy) SuccessBlock operationblock;
+
 - (void)headerViewWithData:(NSArray *)array;
 
 @end

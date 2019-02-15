@@ -38,6 +38,7 @@
 		7A566FD62215625600E3C408 /* HYBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FD52215625600E3C408 /* HYBaseViewModel.m */; };
 		7A566FD92215627A00E3C408 /* HYHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FD82215627A00E3C408 /* HYHomeViewModel.m */; };
 		7A566FDC2215645000E3C408 /* HYHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */; };
+		7A566FDF22163E9D00E3C408 /* HYHomeHeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A566FDE22163E9D00E3C408 /* HYHomeHeaderViewCell.m */; };
 		E4DA1E1E287AAF250CF8A0E8 /* libPods-Adonis_20190214_MVVMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFE8307EB418621303C2D16 /* libPods-Adonis_20190214_MVVMTests.a */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,8 @@
 		7A566FD82215627A00E3C408 /* HYHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeViewModel.m; sourceTree = "<group>"; };
 		7A566FDA2215645000E3C408 /* HYHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeHeaderView.h; sourceTree = "<group>"; };
 		7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeHeaderView.m; sourceTree = "<group>"; };
+		7A566FDD22163E9D00E3C408 /* HYHomeHeaderViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHomeHeaderViewCell.h; sourceTree = "<group>"; };
+		7A566FDE22163E9D00E3C408 /* HYHomeHeaderViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHomeHeaderViewCell.m; sourceTree = "<group>"; };
 		7D5E8234734C1D01626F18C0 /* Pods-Adonis_20190214_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMUITests/Pods-Adonis_20190214_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		89EFBF6AB16CF510D72B655B /* Pods-Adonis_20190214_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMTests/Pods-Adonis_20190214_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B063E6A621A55F0BC345B2D /* Pods-Adonis_20190214_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adonis_20190214_MVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adonis_20190214_MVVMTests/Pods-Adonis_20190214_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -264,6 +267,8 @@
 				7A566FCF221561D200E3C408 /* HYHomeCell.m */,
 				7A566FDA2215645000E3C408 /* HYHomeHeaderView.h */,
 				7A566FDB2215645000E3C408 /* HYHomeHeaderView.m */,
+				7A566FDD22163E9D00E3C408 /* HYHomeHeaderViewCell.h */,
+				7A566FDE22163E9D00E3C408 /* HYHomeHeaderViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 				7A566FD92215627A00E3C408 /* HYHomeViewModel.m in Sources */,
 				7A566FCD221561B000E3C408 /* HYHomeViewController.m in Sources */,
 				7A566F5B2215595600E3C408 /* AppDelegate.m in Sources */,
+				7A566FDF22163E9D00E3C408 /* HYHomeHeaderViewCell.m in Sources */,
 				7A566FDC2215645000E3C408 /* HYHomeHeaderView.m in Sources */,
 				7A566FC122155D5300E3C408 /* UITableView+HYRegister.m in Sources */,
 				7A566FD62215625600E3C408 /* HYBaseViewModel.m in Sources */,

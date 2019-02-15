@@ -8,8 +8,6 @@
 
 #import "HYHomeCell.h"
 
-#define space 8.0f
-
 
 
 @implementation HYHomeCell
